@@ -35,6 +35,21 @@ Note the double line break for separate paragraphs.
 > 
 > Critical content demanding immediate user attention due to potential risks.
 
+Note that GitHub renders the above the same as its special syntax.
+It only applies to those three words though; it does not work on the following.
+
+> **Success**
+>
+> Success
+
+> **Tip**
+>
+> Tip
+
+> **Error**
+>
+> Error
+
 ### Emoji
 
 More recently, I experimented with using emoji to represent the desired display.
@@ -43,13 +58,13 @@ Colors have English/western-centric, whereas symbols _should_ have universal mea
 
 #### Symbols
 
-> **ℹ️ Info**
+> **ℹ️ Note**
 >
-> Information
+> Note (information)
 
-> **ℹ Info**
+> **ℹ Note**
 >
-> Information
+> Note (information)
 
 > **‼️ Important**
 >
@@ -87,7 +102,6 @@ Colors have English/western-centric, whereas symbols _should_ have universal mea
 >
 > Error
 
-
 #### Colors and shapes
 
 For accessibility reasons, I differed shapes for the colors.
@@ -103,9 +117,9 @@ The shapes link (somewhat) to the symbols.
 >
 > Success (or tip)
 
-> **🟦 Info**
+> **🟦 Note**
 > 
-> Information
+> Note (information)
 
 > **🔶 Warning**
 >
@@ -118,3 +132,5 @@ The shapes link (somewhat) to the symbols.
 > **🛑 Error**
 >
 > Error
+
+Note that AsciiDoc would use "Caution" for the yellow warning and "Warning" for the red error (I think).

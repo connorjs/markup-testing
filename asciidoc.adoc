@@ -6,7 +6,10 @@ File for testing AsciiDoc.
 
 == Admonitions
 
-Note that I have enabled `:icons: font` to test font icons mode.
+GitHub renders admonitions as a table, which appears visually similarly to the JetBrains plugin (default?) rendering, but different from the Asciidoctor website rendering.
+Unfortunately, GitHub’s table borders make this look odd (opinion).
+
+Note that I have enabled `:icons: font` to test font icons mode, but GitHub does not render them.
 
 === Paragraph syntax
 
