@@ -1,0 +1,68 @@
+= AsciiDoc
+:hide-uri-scheme:
+:icons: font
+
+File for testing AsciiDoc.
+
+== Admonitions
+
+Note that I have enabled `:icons: font` to test font icons mode.
+
+=== Paragraph syntax
+
+NOTE: A note
+
+TIP: A tip
+
+IMPORTANT: An important
+
+CAUTION: A caution
+
+WARNING: A warning
+
+=== Block syntax
+
+[NOTE]
+.Note
+====
+A note
+====
+
+[TIP]
+.Tip
+====
+A tip
+====
+
+[IMPORTANT]
+.Important
+====
+An important
+====
+
+[CAUTION]
+.Caution
+====
+A caution
+====
+
+[WARNING]
+.Warning
+====
+A warning
+====
+
+=== Caution vs warning
+
+Quoting https://docs.asciidoctor.org/asciidoc/latest/blocks/admonitions/[Asciidoctor’s definition].
+
+[quote,Asciidoctor]
+____
+When choosing the admonition type, you may find yourself getting confused between "caution" and "warning" as these words are often used interchangeably.
+Here’s a simple rule to help you differentiate the two:
+
+- Use CAUTION to advise the reader to act carefully (i.e., exercise care).
+- Use WARNING to inform the reader of danger, harm, or consequences that exist.
+
+To find a deeper analysis, see <https://www.differencebetween.com/difference-between-caution-and-vs-warning/>.
+____
