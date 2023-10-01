@@ -98,11 +98,40 @@ Colors have English/western-centric, whereas symbols _should_ have universal mea
 >
 > Success (or tip)
 
+> **💡 Tip**
+>
+> Tip
+
 > **❌ Error**
 >
 > Error
 
-#### Colors and shapes
+> **🛑 Danger**
+>
+> Danger (error, stop)
+
+#### Colors and shapes (new)
+
+A new take on colors and shapes.
+Matches the terms from Ascii doc.
+
+> **🔷 Note**
+>
+> A note (info)
+
+> **🟢 Tip**
+>
+> A tip (success)
+
+> **🟨 Caution**
+> 
+> A caution
+
+> **🔺 Warning**
+> 
+> A warning (error)
+
+#### Colors and shapes (old)
 
 For accessibility reasons, I differed shapes for the colors.
 The shapes link (somewhat) to the symbols.
