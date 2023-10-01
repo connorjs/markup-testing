@@ -134,3 +134,116 @@ The shapes link (somewhat) to the symbols.
 > Error
 
 Note that AsciiDoc would use "Caution" for the yellow warning and "Warning" for the red error (I think).
+
+### Directives syntax
+
+This uses the [Generic directives/plugins syntax (CommonMark RFC)](https://talk.commonmark.org/t/generic-directives-plugins-syntax/444).
+
+[Docusaurus](https://docusaurus.io/docs/markdown-features/admonitions) uses this format.
+The examples below come from the Docusaurus examples.
+
+:::note
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+:::tip
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+:::info
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+:::caution
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+:::danger
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+### Material for MKDocs
+
+The following copies the [Material for MKDocs admonitions syntax](https://squidfunk.github.io/mkdocs-material/reference/admonitions/).
+
+:   !!! note
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+        euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+        purus auctor massa, nec semper lorem quam in massa.
+
+:   !!! abstract
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+        euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+        purus auctor massa, nec semper lorem quam in massa.
+
+:   !!! info
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+        euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+        purus auctor massa, nec semper lorem quam in massa.
+
+:   !!! tip
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+        euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+        purus auctor massa, nec semper lorem quam in massa.
+
+:   !!! success
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+        euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+        purus auctor massa, nec semper lorem quam in massa.
+
+:   !!! question
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+        euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+        purus auctor massa, nec semper lorem quam in massa.
+
+:   !!! warning
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+        euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+        purus auctor massa, nec semper lorem quam in massa.
+
+:   !!! failure
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+        euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+        purus auctor massa, nec semper lorem quam in massa.
+
+:   !!! danger
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+        euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+        purus auctor massa, nec semper lorem quam in massa.
+
+:   !!! bug
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+        euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+        purus auctor massa, nec semper lorem quam in massa.
+
+:   !!! example
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+        euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+        purus auctor massa, nec semper lorem quam in massa.
+
+:   !!! quote
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+        euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+        purus auctor massa, nec semper lorem quam in massa.
