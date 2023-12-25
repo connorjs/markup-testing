@@ -7,16 +7,31 @@ File for testing “Markdown” (specifically GitHub-flavored Markdown (GFM), an
 ### GitHub special
 
 These should render as special blocks on GitHub.
-[See the GitHub discussion](https://github.com/orgs/community/discussions/16925#discussioncomment-2827410).
+See [the official GitHub documentation][alerts] or [the original GitHub discussion][16925].
 
-> [!NOTE]  
-> Highlights information that users should take into account, even when skimming.
+[alerts]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts
+[16925]: https://github.com/orgs/community/discussions/16925
 
-> [!IMPORTANT]  
-> Crucial information necessary for users to succeed.
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
+> 
+> (Originally) Highlights information that users should take into account, even when skimming.
 
-> [!WARNING]  
-> Critical content demanding immediate user attention due to potential risks.
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+> 
+> (Originally) Crucial information necessary for users to succeed.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+> 
+> (Originally) Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
 
 ### Bolded quotes
 
@@ -35,22 +50,6 @@ Note the double line break for separate paragraphs.
 > 
 > Critical content demanding immediate user attention due to potential risks.
 
-~~Note that GitHub renders the above the same as its special syntax.
-It only applies to those three words though; it does not work on the following.~~
-
-> Just kidding… GitHub broke this in the November 2023 update.
->
-> > **Update - 14 November 2023**
-> >
-> > - Add support for `[!TIP]` and `[!CAUTION]`.
-> > - ...
-> > - Prevent alerts from being nested within other elements.
-> > - The initial syntax using e.g. `**Note**` isn't supported any longer.
-> > 
-> > -- <https://github.com/orgs/community/discussions/16925>
->
-> The churn in this issue and removal of the `**Note**` syntax means I **do not** recommend using GitHub’s syntax (at least not yet), unless you (the author) plan to keep up-to-date.
-
 > **Success**
 >
 > Success
@@ -62,6 +61,25 @@ It only applies to those three words though; it does not work on the following.~
 > **Error**
 >
 > Error
+
+Note that GitHub originally rendered the first three (Note, Important, and Warning) the same as its special syntax.
+It only applied to those three words though; it did not work for the other three (Success, Tip, Error).
+
+However, GitHub broke (removed) this in the November 2023 update.
+
+> **Update - 14 November 2023**
+>
+> - Add support for `[!TIP]` and `[!CAUTION]`.
+> - ...
+> - Prevent alerts from being nested within other elements.
+> - The initial syntax using e.g. `**Note**` isn't supported any longer.
+>
+> -- <https://github.com/orgs/community/discussions/16925>
+
+This means, we are back to choosing GitHub-only “Alert” syntax vs. native markdown vs. other admonition syntax.
+
+Overall, I **do not** recommend using GitHub’s syntax given the lack of rendering support in nested elements and non-standard design.
+Instead, use standard markdown unless you (the author) plan to only render on GitHub and plan to stay up-to-date with this feature.
 
 ### Emoji
 
