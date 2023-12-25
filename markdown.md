@@ -92,11 +92,31 @@ More recently, I experimented with using emoji to represent the desired display.
 I experimented with both symbols and colors.
 Colors have English/western-centric, whereas symbols _should_ have universal meaning. 
 
-#### Symbols
+#### GitHub alerts
+
+The following (somewhat) match GitHub’s alerts.
 
 > **ℹ️ Note**
 >
-> Note (information)
+> Note
+
+> **💡 Tip**
+>
+> Tip
+
+> **❕ Important**
+>
+> Important
+
+> **⚠️ Warning**
+>
+> Warning
+
+> **🛑 Caution**
+>
+> Caution
+
+#### Symbols
 
 > **ℹ Note**
 >
@@ -110,9 +130,9 @@ Colors have English/western-centric, whereas symbols _should_ have universal mea
 >
 > Important
 
-> **⚠️ Warning**
+> **💬 Important**
 >
-> Warning
+> Important
 
 > **⚠ Warning**
 >
@@ -134,17 +154,9 @@ Colors have English/western-centric, whereas symbols _should_ have universal mea
 >
 > Success (or tip)
 
-> **💡 Tip**
->
-> Tip
-
 > **❌ Error**
 >
 > Error
-
-> **🛑 Danger**
->
-> Danger (error, stop)
 
 #### Colors and shapes (new)
 
