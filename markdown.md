@@ -35,8 +35,21 @@ Note the double line break for separate paragraphs.
 > 
 > Critical content demanding immediate user attention due to potential risks.
 
-Note that GitHub renders the above the same as its special syntax.
-It only applies to those three words though; it does not work on the following.
+~~Note that GitHub renders the above the same as its special syntax.
+It only applies to those three words though; it does not work on the following.~~
+
+> Just kidding… GitHub broke this in the November 2023 update.
+>
+> > **Update - 14 November 2023**
+> >
+> > - Add support for `[!TIP]` and `[!CAUTION]`.
+> > - ...
+> > - Prevent alerts from being nested within other elements.
+> > - The initial syntax using e.g. `**Note**` isn't supported any longer.
+> > 
+> > -- <https://github.com/orgs/community/discussions/16925>
+>
+> The churn in this issue and removal of the `**Note**` syntax means I **do not** recommend using GitHub’s syntax (at least not yet), unless you (the author) plan to keep up-to-date.
 
 > **Success**
 >
