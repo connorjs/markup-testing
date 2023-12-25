@@ -9,33 +9,37 @@ File for testing “Markdown” (specifically GitHub-flavored Markdown (GFM), an
 These should render as special blocks on GitHub.
 See [the official GitHub documentation][alerts] or [the original GitHub discussion][16925].
 
+I think GitHub chose the syntax to match Microsoft Learn given shared Microsoft ownership.
+See [the Microsoft Learn documentation][microsoft-learn].
+
 [alerts]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts
+[microsoft-learn]: https://learn.microsoft.com/en-us/contribute/content/markdown-reference#alerts-note-tip-important-caution-warning
 [16925]: https://github.com/orgs/community/discussions/16925
 
 > [!NOTE]
-> 
+>
 > Useful information that users should know, even when skimming content.
-> 
+>
 > (Originally) Highlights information that users should take into account, even when skimming.
 
 > [!TIP]
-> 
+>
 > Helpful advice for doing things better or more easily.
 
 > [!IMPORTANT]
-> 
+>
 > Key information users need to know to achieve their goal.
-> 
+>
 > (Originally) Crucial information necessary for users to succeed.
 
 > [!WARNING]
-> 
+>
 > Urgent info that needs immediate user attention to avoid problems.
-> 
+>
 > (Originally) Critical content demanding immediate user attention due to potential risks.
 
 > [!CAUTION]
-> 
+>
 > Advises about risks or negative outcomes of certain actions.
 
 ### Bolded quotes
@@ -43,16 +47,16 @@ See [the official GitHub documentation][alerts] or [the original GitHub discussi
 The “native” markdown way I naturally used.
 Note the double line break for separate paragraphs.
 
-> **Note**  
-> 
+> **Note**
+>
 > Highlights information that users should take into account, even when skimming.
 
 > **Important**
-> 
+>
 > Crucial information necessary for users to succeed.
 
 > **Warning**
-> 
+>
 > Critical content demanding immediate user attention due to potential risks.
 
 > **Success**
@@ -90,7 +94,7 @@ Instead, use standard markdown unless you (the author) plan to only render on Gi
 
 More recently, I experimented with using emoji to represent the desired display.
 I experimented with both symbols and colors.
-Colors have English/western-centric, whereas symbols _should_ have universal meaning. 
+Colors have English/western-centric, whereas symbols _should_ have universal meaning.
 
 #### GitHub alerts
 
@@ -172,11 +176,11 @@ Matches the terms from Ascii doc.
 > A tip (success)
 
 > **🟨 Caution**
-> 
+>
 > A caution
 
 > **🔺 Warning**
-> 
+>
 > A warning (error)
 
 #### Colors and shapes (old)
@@ -195,7 +199,7 @@ The shapes link (somewhat) to the symbols.
 > Success (or tip)
 
 > **🟦 Note**
-> 
+>
 > Note (information)
 
 > **🔶 Warning**
@@ -253,74 +257,74 @@ Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
 
 The following copies the [Material for MKDocs admonitions syntax](https://squidfunk.github.io/mkdocs-material/reference/admonitions/).
 
-:   !!! note
+!!! note
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
-        euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
-        purus auctor massa, nec semper lorem quam in massa.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+    euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+    purus auctor massa, nec semper lorem quam in massa.
 
-:   !!! abstract
+!!! abstract
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
-        euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
-        purus auctor massa, nec semper lorem quam in massa.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+    euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+    purus auctor massa, nec semper lorem quam in massa.
 
-:   !!! info
+!!! info
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
-        euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
-        purus auctor massa, nec semper lorem quam in massa.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+    euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+    purus auctor massa, nec semper lorem quam in massa.
 
-:   !!! tip
+!!! tip
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
-        euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
-        purus auctor massa, nec semper lorem quam in massa.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+    euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+    purus auctor massa, nec semper lorem quam in massa.
 
-:   !!! success
+!!! success
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
-        euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
-        purus auctor massa, nec semper lorem quam in massa.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+    euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+    purus auctor massa, nec semper lorem quam in massa.
 
-:   !!! question
+!!! question
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
-        euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
-        purus auctor massa, nec semper lorem quam in massa.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+    euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+    purus auctor massa, nec semper lorem quam in massa.
 
-:   !!! warning
+!!! warning
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
-        euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
-        purus auctor massa, nec semper lorem quam in massa.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+    euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+    purus auctor massa, nec semper lorem quam in massa.
 
-:   !!! failure
+!!! failure
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
-        euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
-        purus auctor massa, nec semper lorem quam in massa.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+    euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+    purus auctor massa, nec semper lorem quam in massa.
 
-:   !!! danger
+!!! danger
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
-        euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
-        purus auctor massa, nec semper lorem quam in massa.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+    euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+    purus auctor massa, nec semper lorem quam in massa.
 
-:   !!! bug
+!!! bug
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
-        euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
-        purus auctor massa, nec semper lorem quam in massa.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+    euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+    purus auctor massa, nec semper lorem quam in massa.
 
-:   !!! example
+!!! example
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
-        euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
-        purus auctor massa, nec semper lorem quam in massa.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+    euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+    purus auctor massa, nec semper lorem quam in massa.
 
-:   !!! quote
+!!! quote
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
-        euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
-        purus auctor massa, nec semper lorem quam in massa.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+    euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+    purus auctor massa, nec semper lorem quam in massa.
