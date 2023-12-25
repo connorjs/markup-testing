@@ -13,24 +13,29 @@ See [the official GitHub documentation][alerts] or [the original GitHub discussi
 [16925]: https://github.com/orgs/community/discussions/16925
 
 > [!NOTE]
+> 
 > Useful information that users should know, even when skimming content.
 > 
 > (Originally) Highlights information that users should take into account, even when skimming.
 
 > [!TIP]
+> 
 > Helpful advice for doing things better or more easily.
 
 > [!IMPORTANT]
+> 
 > Key information users need to know to achieve their goal.
 > 
 > (Originally) Crucial information necessary for users to succeed.
 
 > [!WARNING]
+> 
 > Urgent info that needs immediate user attention to avoid problems.
 > 
 > (Originally) Critical content demanding immediate user attention due to potential risks.
 
 > [!CAUTION]
+> 
 > Advises about risks or negative outcomes of certain actions.
 
 ### Bolded quotes
